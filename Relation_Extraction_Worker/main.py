@@ -12,8 +12,6 @@ s3_path = ' s3://ryangrossgwudatamining/extractions'
 
 re = RelationShipExtractor()
 
-text = 'Wood plays golf. Woods likes cars.'
-
 def process_text(text):
     start = time()
     triples = []

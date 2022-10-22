@@ -7,7 +7,7 @@ def create_ntuple_file(triples):
 
     for triple_list in triples:
         for triple in triple_list:
-            f.write('<urn:'+str(triple[0])+'> <urn:'+str(triple[1])+'> <urn:'+str(triple[2])+'> .\n')
+            f.write('<urn:'+str(triple[0]).replace(' ', '_')+'> <urn:'+str(triple[1]).replace(' ', '_')+'> <urn:'+str(triple[2]).replace(' ', '_')+'> .\n')
 
     f.close()
     return file_name
