@@ -1,5 +1,4 @@
 import boto3
-import json
 
 
 def receive_message(sqs_region, sqs_url):
