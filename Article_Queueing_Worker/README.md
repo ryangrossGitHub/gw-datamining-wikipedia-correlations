@@ -7,6 +7,6 @@
 
 ## Notes
  - EC2 should have >= 40GB
- - This is tested on the AWS linux distro
+ - This is tested on the AWS linux distro with a t2.large
  - Ensure you are creating things in the same region and VPC
  - Folder contents can be moved to EC2 via git clone or sftp
